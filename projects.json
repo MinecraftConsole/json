@@ -19,6 +19,11 @@
       "name": "4jcraft / 4jcraft",
       "url": "https://github.com/4jcraft/4jcraft",
       "priority": 4
+    },
+    {
+      "name": "SillyProotSoda / Faucet - LCE's Best Modloader!",
+      "url": "https://github.com/ytsodacan/Faucet",
+      "priority": 5
     }
   ]
 }
