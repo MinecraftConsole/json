@@ -1,40 +1,52 @@
 {
   "repos": [
     {
-      "name": "smartcmd / MinecraftConsoles",
-      "url": "https://github.com/smartcmd/MinecraftConsoles",
-      "priority": 2
-    },
-     {
-      "name": "LCEMP / Minecraft LCEMP",
-      "url": "https://github.com/LCEMP/LCEMP",
-      "priority": 3
-    },
-    
-    {
       "name": "Archive Source Code Dump",
       "url": "https://archive.org/download/minecraft-legacy-console-edition-source-code",
-      "priority": 1
+      "priority": 1,
+      "tag": "source"
     },
     {
-      "name": "gradenGnostic / Legacy Launcher",
-      "url": "https://github.com/gradenGnostic/LegacyLauncher",
-      "priority": 5
+      "name": "smartcmd / MinecraftConsoles",
+      "url": "https://github.com/smartcmd/MinecraftConsoles",
+      "priority": 2,
+      "tag": "game",
+      "mirror": "https://git.minecraftlegacy.com/backups/MinecraftConsoles"
+    },
+    {
+      "name": "LCEMP / Minecraft LCEMP",
+      "url": "https://github.com/LCEMP/LCEMP",
+      "priority": 3,
+      "tag": "game",
+      "mirror": "https://git.minecraftlegacy.com/backups/LCEMP"
     },
     {
       "name": "4jcraft / 4jcraft",
       "url": "https://github.com/4jcraft/4jcraft",
-      "priority": 4
+      "priority": 4,
+      "tag": "game",
+      "mirror": "https://git.minecraftlegacy.com/backups/4jcraft"
+    },
+    {
+      "name": "gradenGnostic / Legacy Launcher",
+      "url": "https://github.com/gradenGnostic/LegacyLauncher",
+      "priority": 5,
+      "tag": "launcher",
+      "mirror": "https://git.minecraftlegacy.com/backups/LegacyLauncher"
     },
     {
       "name": "SillyProotSoda / Faucet",
       "url": "https://github.com/ytsodacan/Faucet",
-      "priority": 6
-    }
+      "priority": 6,
+      "tag": "mod",
+      "mirror": "https://git.minecraftlegacy.com/backups/Faucet"
+    },
     {
       "name": "ASAOddball / Java to MLCE Texture Pack Converter",
       "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
-      "priority": 7
+      "priority": 7,
+      "tag": "converter",
+      "mirror": "https://git.minecraftlegacy.com/Oddball/Java-to-MLCE-Texture-Pack-Converter/src/branch/main/"
     }
   ]
 }
