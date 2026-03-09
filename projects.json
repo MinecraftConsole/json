@@ -46,6 +46,12 @@
       "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
       "priority": 7,
       "tag": "converter"
+    },
+    {
+      "name": "openLCE",
+      "url": "https://openlce.org",
+      "priority": 8,
+      "tag": "game"
     }
   ]
 }
