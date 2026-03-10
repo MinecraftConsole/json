@@ -46,6 +46,12 @@
       "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
       "priority": 7,
       "tag": "converter"
+    },
+    {
+      "name": "Kolyah35 / MCPE 0.6.1",
+      "url": "https://gitea.sffempire.ru/Kolyah35/minecraft-pe-0.6.1",
+      "priority": 8,
+      "tag": "game"
     }
   ]
 }
