@@ -46,6 +46,12 @@
       "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
       "priority": 7,
       "tag": "converter"
+    },
+    {
+      "name": "Minecraft Community Edition",
+      "url": "https://github.com/CDevJoud/Minecraft-Community-Edition/tree/main",
+      "priority": 8,
+      "tag": "Game/Server"
     }
   ]
 }
