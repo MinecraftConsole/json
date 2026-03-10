@@ -46,6 +46,12 @@
       "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
       "priority": 7,
       "tag": "converter"
+    },
+    {
+      "name": "Shortygotsauce / Community Edition",
+      "url": "https://github.com/Shortygotsauce/CE-Compiler-Patcher",
+      "priority": 8,
+      "tag": "tool"
     }
   ]
 }
