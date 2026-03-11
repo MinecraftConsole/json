@@ -1,12 +1,6 @@
 {
   "repos": [
     {
-      "name": "Archive Source Code Dump",
-      "url": "https://archive.org/download/minecraft-legacy-console-edition-source-code",
-      "priority": 1,
-      "tag": "source"
-    },
-    {
       "name": "smartcmd / MinecraftConsoles",
       "url": "https://github.com/smartcmd/MinecraftConsoles",
       "priority": 2,
