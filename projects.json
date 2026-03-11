@@ -52,6 +52,12 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    },
+    {
+      "name": "neoapps-dev / legacy-launcher",
+      "url": "https://github.com/neoapps-dev/legacy-launcher",
+      "priority": 9,
+      "tag": "launcher"
     }
   ]
 }
