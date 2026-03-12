@@ -52,6 +52,12 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    },
+    {
+      "name": "xgui4 / Legacy-Qt-Launcher",
+      "url": "https://github.com/xgui4/Legacy-Qt-Launcher",
+      "priority": 9,
+      "tag": "launcher"
     }
   ]
 }
