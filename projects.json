@@ -52,6 +52,12 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    },
+    {
+      "name": "Synomal / Flint",
+      "url": "https://github.com/synomal/Flint",
+      "priority": 9,
+      "tag": "launcher"
     }
   ]
 }
