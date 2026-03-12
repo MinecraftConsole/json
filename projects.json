@@ -52,6 +52,11 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    },
+    {
+      "name": "DeveloperExotic / Legacy Cross Play",
+      "url": "https://github.com/DeveloperExotic/LegacyCrossPlay",
+      "priority": 9
     }
   ]
 }
