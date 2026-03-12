@@ -52,6 +52,12 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    },
+    {
+      "name": "Emerald-Legacy-Launcher / Emerald-Legacy-Launcher",
+      "url": "https://github.com/Emerald-Legacy-Launcher/Emerald-Legacy-Launcher",
+      "priority": 9,
+      "tag": "launcher"
     }
   ]
 }
