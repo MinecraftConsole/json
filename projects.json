@@ -52,6 +52,12 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    }.
+    {
+      "name": "Zephelinn / LCDactyl",
+      "url": "https://github.com/Zephelinn/LCDactyl",
+      "priority": 9,
+      "tag": "tool"
     }
   ]
 }
