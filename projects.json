@@ -52,6 +52,12 @@
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
       "priority": 8,
       "tag": "launcher"
+    },
+    {
+      "name": "openLCE / openLCE",
+      "url": "https://openlce.org",
+      "priority": 9,
+      "tag": "game"
     }
   ]
 }
