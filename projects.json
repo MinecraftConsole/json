@@ -82,6 +82,12 @@
       "url": "https://github.com/synomal/Flint",
       "priority": 9,
       "tag": "launcher"
+    },
+    {
+      "name": "xgui4 / Legacy-Qt-Launcher",
+      "url": "https://github.com/xgui4/Legacy-Qt-Launcher",
+      "priority": 9,
+      "tag": "launcher"
     }
   ]
 }
