@@ -88,6 +88,12 @@
       "url": "https://github.com/xgui4/Legacy-Qt-Launcher",
       "priority": 14,
       "tag": "launcher"
+    },
+    {
+      "name": "openLCE / openLCE",
+      "url": "https://openlce.org",
+      "priority": 10,
+      "tag": "game"
     }
   ]
 }
