@@ -1,63 +1,69 @@
 {
-  "repos": [
-    {
-      "name": "Archive Source Code Dump",
-      "url": "https://archive.org/download/minecraft-legacy-console-edition-source-code",
-      "priority": 1,
-      "tag": "source"
-    },
-    {
-      "name": "smartcmd / MinecraftConsoles",
-      "url": "https://github.com/smartcmd/MinecraftConsoles",
-      "priority": 2,
-      "tag": "game",
-      "mirror": "https://git.minecraftlegacy.com/backups/MinecraftConsoles"
-    },
-    {
-      "name": "4jcraft / 4jcraft",
-      "url": "https://github.com/4jcraft/4jcraft",
-      "priority": 3,
-      "tag": "game",
-      "mirror": "https://git.minecraftlegacy.com/backups/4jcraft"
-    },
-    {
-      "name": "LCEMP / Minecraft LCEMP",
-      "url": "https://github.com/LCEMP/LCEMP",
-      "priority": 4,
-      "tag": "game",
-      "mirror": "https://git.minecraftlegacy.com/backups/LCEMP"
-    },
-    {
-      "name": "gradenGnostic / Legacy Launcher",
-      "url": "https://github.com/gradenGnostic/LegacyLauncher",
-      "priority": 5,
-      "tag": "launcher",
-      "mirror": "https://git.minecraftlegacy.com/backups/LegacyLauncher"
-    },
-    {
-      "name": "SillyProotSoda / Faucet",
-      "url": "https://github.com/ytsodacan/Faucet",
-      "priority": 6,
-      "tag": "mod",
-      "mirror": "https://git.minecraftlegacy.com/backups/Faucet"
-    },
-    {
-      "name": "ASAOddball / Java to MLCE Texture Pack Converter",
-      "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
-      "priority": 7,
-      "tag": "converter"
-    },
-    {
-      "name": "OxyZin / LegacyConsoleLauncher",
-      "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
-      "priority": 8,
-      "tag": "launcher"
-    },
-    {
-      "name": "Emerald-Legacy-Launcher / Emerald-Legacy-Launcher",
-      "url": "https://github.com/Emerald-Legacy-Launcher/Emerald-Legacy-Launcher",
-      "priority": 9,
-      "tag": "launcher"
-    }
-  ]
+    "repos": [
+        {
+            "name": "Archive Source Code Dump",
+            "url": "https://archive.org/download/minecraft-legacy-console-edition-source-code",
+            "priority": 1,
+            "tag": "source"
+        },
+        {
+            "name": "smartcmd / MinecraftConsoles",
+            "url": "https://github.com/smartcmd/MinecraftConsoles",
+            "priority": 2,
+            "tag": "game",
+            "mirror": "https://git.minecraftlegacy.com/backups/MinecraftConsoles"
+        },
+        {
+            "name": "4jcraft / 4jcraft",
+            "url": "https://github.com/4jcraft/4jcraft",
+            "priority": 3,
+            "tag": "game",
+            "mirror": "https://git.minecraftlegacy.com/backups/4jcraft"
+        },
+        {
+            "name": "LCEMP / Minecraft LCEMP",
+            "url": "https://github.com/LCEMP/LCEMP",
+            "priority": 4,
+            "tag": "game",
+            "mirror": "https://git.minecraftlegacy.com/backups/LCEMP"
+        },
+        {
+            "name": "gradenGnostic / Legacy Launcher",
+            "url": "https://github.com/gradenGnostic/LegacyLauncher",
+            "priority": 5,
+            "tag": "launcher",
+            "mirror": "https://git.minecraftlegacy.com/backups/LegacyLauncher"
+        },
+        {
+            "name": "SillyProotSoda / Faucet",
+            "url": "https://github.com/ytsodacan/Faucet",
+            "priority": 6,
+            "tag": "mod",
+            "mirror": "https://git.minecraftlegacy.com/backups/Faucet"
+        },
+        {
+            "name": "ASAOddball / Java to MLCE Texture Pack Converter",
+            "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
+            "priority": 7,
+            "tag": "converter"
+        },
+        {
+            "name": "OxyZin / LegacyConsoleLauncher",
+            "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
+            "priority": 8,
+            "tag": "launcher"
+        },
+        {
+            "name": "Emerald-Legacy-Launcher / Emerald-Legacy-Launcher",
+            "url": "https://github.com/Emerald-Legacy-Launcher/Emerald-Legacy-Launcher",
+            "priority": 9,
+            "tag": "launcher"
+        },
+        {
+            "name": "maximilian1121 / legacy-launch",
+            "url": "https://github.com/maximilian1121/legacy-launch",
+            "priority": 10,
+            "tag": "launcher"
+        }
+    ]
 }
