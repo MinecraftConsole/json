@@ -100,6 +100,11 @@
       "url": "https://github.com/xgui4/Legacy-Qt-Launcher",
       "priority": 16,
       "tag": "launcher"
+    },
+    {
+      "name": "DeveloperExotic / Legacy Cross Play",
+      "url": "https://github.com/DeveloperExotic/LegacyCrossPlay",
+      "priority": 9
     }
   ]
 }
