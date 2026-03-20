@@ -101,5 +101,11 @@
       "priority": 16,
       "tag": "launcher"
     }
+        {
+      "name": "Eliather / LegacyCraft",
+      "url": "https://github.com/Eliather/LegacyCraft",
+      "priority": 17,
+      "tag": "game"
+    }
   ]
 }
