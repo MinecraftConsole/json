@@ -1,0 +1,61 @@
+# ── Build output ──────────────────────────────────────────────
+Debug/
+Release/
+x64/
+x86/
+Durango_Debug/
+Durango_Release/
+*_Debug/
+*_Release/
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.map
+*.sbr
+*.bsc
+
+# ── Compiled object files ─────────────────────────────────────
+*.obj
+*.o
+*.pch
+*.gch
+*.aps
+*.idb
+*.tlog
+*.lastbuildstate
+*.unsuccessfulbuild
+
+# ── Visual Studio ─────────────────────────────────────────────
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+ipch/
+*.ncb
+*.cachefile
+
+# ── CMake ─────────────────────────────────────────────────────
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build/
+
+# ── Logs & temp ───────────────────────────────────────────────
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# ── Game runtime files (generated on run) ────────────────────
+saves/
+screenshots/
+*.dat
+options.txt
+username.txt
+uid.dat
