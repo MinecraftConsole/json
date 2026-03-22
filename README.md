@@ -14,9 +14,9 @@ projects.json    ← The single source of truth for all listed projects
 {
   "repos": [
     {
-      "name": "owner / ProjectName",
-      "url": "https://github.com/owner/ProjectName",
-      "priority": 1
+      "name": "Eliather / LegacyCraft",
+      "url": "https://github.com/Eliather/LegacyCraft",
+      "priority": 17
     }
   ]
 }
@@ -24,9 +24,9 @@ projects.json    ← The single source of truth for all listed projects
 
 | Field      | Type     | Description                                                        |
 | ---------- | -------- | ------------------------------------------------------------------ |
-| `name`     | `string` | Display name shown on the site (usually `owner / repo`)            |
-| `url`      | `string` | Full URL to the project (GitHub, Archive.org, etc.)                |
-| `priority` | `number` | Sort order - lower number = higher on the list. `1` is top priority |
+| `Eliather/LegacyCraft`     | `string` | Display name shown on the site (usually `owner / repo`)            |
+| `https://github.com/Eliather/LegacyCraft`      | `string` | Full URL to the project (GitHub, Archive.org, etc.)                |
+| `17` | `number` | Sort order - lower number = higher on the list. `1` is top priority |
 
 ## How to add a new project
 
