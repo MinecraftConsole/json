@@ -1,64 +1,120 @@
-# Minecraft Legacy - Project Index
+# LegacyCraft
 
-This repository hosts the **projects.json** file that powers the [Minecraft Legacy](https://minecraftlegacy.com) website. The site reads this JSON directly from GitHub to display the community project list.
+Personal development fork of **Minecraft Legacy Console Edition** (October 2014 backup, ~TU19).  
+This repo tracks UI improvements and custom features added on top of the original PC/Windows 64-bit build.
 
-## Structure
+> **Private repo** — Source code is proprietary to Mojang/Microsoft. This is for personal version control only.
 
-```
-projects.json    ← The single source of truth for all listed projects
-```
+---
 
-### `projects.json` format
+## Custom UI System
 
-```json
-{
-  "repos": [
-    {
-      "name": "owner / ProjectName",
-      "url": "https://github.com/owner/ProjectName",
-      "priority": 1
-    }
-  ]
-}
-```
+All custom controls live directly in `Minecraft.Client/` and are registered in `Minecraft.Client.vcxproj`.
 
-| Field      | Type     | Description                                                        |
-| ---------- | -------- | ------------------------------------------------------------------ |
-| `name`     | `string` | Display name shown on the site (usually `owner / repo`)            |
-| `url`      | `string` | Full URL to the project (GitHub, Archive.org, etc.)                |
-| `priority` | `number` | Sort order - lower number = higher on the list. `1` is top priority |
+---
 
-## How to add a new project
+### `CustomGenericButton` — Button con textura PNG
 
-### Option 1 - Open a Pull Request (recommended)
+Botón reutilizable que renderiza una textura normal + hover, con texto centrado.
 
-1. **Fork** this repo.
-2. Edit `projects.json` - add your project entry to the `repos` array.
-3. Pick a `priority` number. Use the next available number unless the maintainers say otherwise.
-4. **Commit** with a clear message like `Add MyProject to project list`.
-5. Open a **Pull Request** using the provided template.
+**Archivos:** `CustomGenericButton.h` / `CustomGenericButton.cpp`
 
-### Option 2 - Request via Issue
+```cpp
+CustomGenericButton myButton;
 
-If you don't want to edit JSON yourself, just open an **Issue** using the "Project Request" template and fill in the details. A maintainer will add it for you.
+// Botón genérico (textura + tamaño explícitos)
+myButton.Setup(L"/Graphics/MyBtn_Norm.png", L"/Graphics/MyBtn_Over.png",
+               x, y, width, height);
 
-## Rules
+// Botón de menú principal (usa MainMenuButton_Norm/Over.png, altura automática)
+myButton.SetupMenuButton(x, y);
 
-- **Valid JSON only** - run your edit through a JSON validator before submitting.
-- **No duplicate URLs** - check that your project isn't already listed.
-- **Relevant projects only** - must be related to Minecraft Legacy / Console Edition.
-- **One project per PR** - keeps reviews simple.
+// En tick():
+if(myButton.Update(minecraft)) { /* click */ }
 
-## How it works
-
-The [Minecraft Legacy website](https://minecraftlegacy.com) fetches this file directly from:
-
-```
-https://raw.githubusercontent.com/MinecraftConsole/json/refs/heads/main/projects.json
+// En render():
+myButton.Render(minecraft, font, L"Texto", viewport);
 ```
 
-Changes merged to `main` go live on the site immediately - no deploy needed.
+| Estado | Textura | Texto |
+|---|---|---|
+| Normal | `*_Norm.png` | Blanco |
+| Hover | `*_Over.png` | Amarillo |
 
-## License
+**Texturas usadas por `SetupMenuButton`:**
+- `Graphics/MainMenuButton_Norm.png` — fondo gris oscuro
+- `Graphics/MainMenuButton_Over.png` — fondo azul/violeta
 
-This project list is maintained by the Minecraft Legacy community. See [LICENSE](LICENSE) for details.
+---
+
+### `CustomSlider` — Slider con rango configurable
+
+Control de slider horizontal con fondo de pista, handle arrastrable, overlay de hover y label centrado.
+
+**Archivos:** `CustomSlider.h` / `CustomSlider.cpp`
+
+```cpp
+CustomSlider mySlider;
+
+// Tamaño por defecto (600×32), rango 0-100
+mySlider.Setup(x, y);
+
+// Rango personalizado
+mySlider.Setup(x, y, 200);           // 0-200
+mySlider.Setup(x, y, 5);            // 0-5
+
+// Tamaño y rango explícitos
+mySlider.Setup(x, y, 480.0f, 40.0f, 100);
+
+// En tick():
+bool changed = mySlider.Update(minecraft);
+
+// En render() — muestra "[string]: [valor]%" o "[string]: [valor]/[max]"
+mySlider.Render(minecraft, font, IDS_MY_STRING, viewport);
+
+// Leer el valor actual:
+int value = mySlider.GetValue();  // 0 … limitMax
+```
+
+| Estado | Fondo | Borde | Texto |
+|---|---|---|---|
+| Normal | `Slider_Track.png` | Ninguno | Blanco |
+| Hover | `LeaderboardButton_Over.png` encima | Amarillo 2px | Amarillo |
+
+**Texturas:**
+- `Graphics/Slider_Track.png` — pista de fondo (oscuro)
+- `Graphics/Slider_Button.png` — handle (el nodo que se arrastra)
+- `Graphics/LeaderboardButton_Over.png` — overlay hover (azul)
+
+---
+
+## Cambios en `UIScene_MainMenu`
+
+- **6 botones de menú custom** con `CustomGenericButton::SetupMenuButton()`, reemplazando los botones originales de Iggy/Flash
+- **Guard de escena activa** — los botones solo se actualizan/renderizan cuando el menú principal tiene el foco, evitando interacción fantasma desde submenús
+- **Slider de prueba** en `(0, 0)` para testing en desarrollo (fácil de quitar)
+
+---
+
+## Estructura de archivos relevantes
+
+```
+Minecraft.Client/
+├── CustomGenericButton.h / .cpp    ← Botón genérico con PNG
+├── CustomSlider.h / .cpp           ← Slider con rango y hover
+└── Common/
+    └── UI/
+        └── UIScene_MainMenu.cpp    ← Integración de los controles custom
+```
+
+---
+
+## Build
+
+- **IDE:** Visual Studio 2012 (v110 toolset)
+- **Plataforma:** Windows x64
+- **Proyecto:** `Minecraft.Client/Minecraft.Client.vcxproj`
+
+```
+Configuración recomendada: Release | x64
+```
