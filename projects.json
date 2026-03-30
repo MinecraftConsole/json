@@ -34,71 +34,77 @@
       "tag": "game"
     },
     {
+      "name": "mclemp / Legacy Edition MP",
+      "url": "https://github.com/mclemp/MCLEClient",
+      "priority": 6,
+      "tag": "game"
+    },
+    {
       "name": "openLCE / openLCE",
       "url": "https://openlce.org",
-      "priority": 6,
+      "priority": 7,
       "tag": "game"
     },
     {
       "name": "gradenGnostic / Legacy Launcher",
       "url": "https://github.com/gradenGnostic/LegacyLauncher",
-      "priority": 7,
+      "priority": 8,
       "tag": "launcher",
       "mirror": "https://git.minecraftlegacy.com/backups/LegacyLauncher"
     },
     {
       "name": "Synomal / Flint",
       "url": "https://github.com/synomal/Flint",
-      "priority": 8,
+      "priority": 9,
       "tag": "launcher"
     },
     {
       "name": "SillyProotSoda / Faucet",
       "url": "https://github.com/ytsodacan/Faucet",
-      "priority": 9,
+      "priority": 10,
       "tag": "mod",
       "mirror": "https://git.minecraftlegacy.com/backups/Faucet"
     },
     {
       "name": "KaDerox / Axo McLCE ModLoader",
       "url": "https://github.com/KaDerox/Axo-McLCE-ModLoader",
-      "priority": 10,
+      "priority": 11,
       "tag": "modloader"
     },
     {
       "name": "ASAOddball / Java to MLCE Texture Pack Converter",
       "url": "https://github.com/ASAOddball1/Java-to-MLCE-Texture-Pack-Converter/tree/main",
-      "priority": 11,
+      "priority": 12,
       "tag": "converter"
     },
     {
       "name": "Minecraft Community Edition",
       "url": "https://github.com/CDevJoud/Minecraft-Community-Edition/tree/main",
-      "priority": 12,
+      "priority": 13,
       "tag": "Game/Server"
     },
     {
       "name": "Emerald-Legacy-Launcher / Emerald-Legacy-Launcher",
       "url": "https://github.com/Emerald-Legacy-Launcher/Emerald-Legacy-Launcher",
-      "priority": 13,
+      "priority": 14,
       "tag": "launcher"
     },
     {
       "name": "OxyZin / LegacyConsoleLauncher",
       "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
-      "priority": 14,
+      "priority": 15,
       "tag": "launcher"
     },
     {
       "name": "neoapps-dev / legacy-launcher",
       "url": "https://github.com/neoapps-dev/legacy-launcher",
-      "priority": 15,
+      "priority": 16,
       "tag": "launcher"
     },
     {
       "name": "xgui4 / Legacy-Qt-Launcher",
       "url": "https://github.com/xgui4/Legacy-Qt-Launcher",
-      "priority": 16,
+      "priority": 17,
       "tag": "launcher"
     }
   ]
