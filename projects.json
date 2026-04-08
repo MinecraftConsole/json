@@ -7,8 +7,8 @@
       "tag": "source"
     },
     {
-      "name": "smartcmd / MinecraftConsoles",
-      "url": "https://github.com/smartcmd/MinecraftConsoles",
+      "name": "MCLCE / MinecraftConsoles (formerly smartcmd)",
+      "url": "https://github.com/MCLCE/MinecraftConsoles",
       "priority": 2,
       "tag": "game",
       "mirror": "https://git.minecraftlegacy.com/backups/MinecraftConsoles"
