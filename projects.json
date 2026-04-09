@@ -21,17 +21,17 @@
       "mirror": "https://git.minecraftlegacy.com/backups/4jcraft"
     },
     {
-      "name": "LCEMP / Minecraft LCEMP",
-      "url": "https://github.com/LCEMP/LCEMP",
-      "priority": 4,
-      "tag": "game",
-      "mirror": "https://git.minecraftlegacy.com/backups/LCEMP"
-    },
-    {
       "name": "pieeebot / neoLegacy",
       "url": "https://github.com/LCE-Hub/neoLegacy",
-      "priority": 5,
+      "priority": 4,
       "tag": "game"
+    },
+        {
+      "name": "LCEMP / Minecraft LCEMP",
+      "url": "https://github.com/LCEMP/LCEMP",
+      "priority": 5,
+      "tag": "game",
+      "mirror": "https://git.minecraftlegacy.com/backups/LCEMP"
     },
     {
       "name": "openLCE / openLCE",
