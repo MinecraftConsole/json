@@ -84,21 +84,15 @@
       "tag": "launcher"
     },
     {
-      "name": "OxyZin / LegacyConsoleLauncher",
-      "url": "https://github.com/OxyZin/LegacyConsoleLauncher",
-      "priority": 14,
-      "tag": "launcher"
-    },
-    {
       "name": "neoapps-dev / legacy-launcher",
       "url": "https://github.com/neoapps-dev/legacy-launcher",
-      "priority": 15,
+      "priority": 14,
       "tag": "launcher"
     },
     {
       "name": "xgui4 / Legacy-Qt-Launcher",
       "url": "https://github.com/xgui4/Legacy-Qt-Launcher",
-      "priority": 16,
+      "priority": 15,
       "tag": "launcher"
     }
   ]
