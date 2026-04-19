@@ -66,6 +66,12 @@
       "mirror": "https://git.minecraftlegacy.com/backups/Faucet"
     },
     {
+      "name": "MathiewMay / Cactus ModLoader",
+      "url": "https://github.com/MathiewMay/Cactus.ModLoader",
+      "priority": 10,
+      "tag": "modloader",
+    },
+    {
       "name": "KaDerox / Axo McLCE ModLoader",
       "url": "https://github.com/KaDerox/Axo-McLCE-ModLoader",
       "priority": 11,
